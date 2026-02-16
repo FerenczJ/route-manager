@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: route-manager
+
+server:
+  port: 8080

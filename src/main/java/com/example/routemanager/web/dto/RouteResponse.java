@@ -1,0 +1,14 @@
+package com.example.routemanager.web.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class RouteResponse {
+    private List<String> route;
+}
