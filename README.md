@@ -60,3 +60,4 @@ This interface allows you to explore and test the available REST endpoints direc
 ## NOTES: 
  - Project works from static country list, but it can be easily extended to read from a database or external API. The current implementation is designed for simplicity and demonstration purposes.
  - Fetching countries could be implement with Feign client.
+ - We can rethink 400 error in case of invalid country code, maybe 404 could be more appropriate. It depends on the context and how we want to handle such cases in our application.
